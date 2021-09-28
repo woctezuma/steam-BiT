@@ -1,4 +1,4 @@
-# Steam BiT: match Steam Banners with GOOG's BiT
+# Steam BiT: match Steam Banners with Google's BiT
 
 This repository contains Python code to retrieve Steam games with similar store banners, using [Google's BiT][goog-bit-blog].
 
