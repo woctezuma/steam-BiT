@@ -20,7 +20,7 @@ Run [`match_steam_banners_with_BiT.ipynb`][match_steam_banners_with_BiT-notebook
 -   Google's Big Transfer (BiT):
     - [Official blog post][goog-bit-blog]
     - [Official Github repository][goog-bit-code]
-    - [Kolesnikov, Alexander, et al. *Big Transfer (BiT): General Visual Representation Learning*. arXiv 2020.][goog-bit-paper]
+    - [Kolesnikov, Alexander, et al. *Big Transfer (BiT): General Visual Representation Learning*. ECCV 2020.][goog-bit-paper]
     - [Beyer, Lucas, et al. *Knowledge distillation: A good teacher is patient and consistent*. arXiv 2021.][goog-bit-distillation-paper]
 -   My usage of Facebook's DINO:
     - [`steam-DINO`][banner-repository-DINO]: retrieve games with similar banners, using Facebook's DINO (resolution 224),
