@@ -8,11 +8,18 @@ Image similarity is assessed by the cosine similarity between image features enc
 
 ## Data
 
-Data consists of **vertical** Steam banners (300x450 resolution).
+Data consists of **vertical** Steam banners (300x450 resolution), resized to 256x384 resolution.
+
+This is performed with [`rom1504/img2dataset`][img2dataset-github].
 
 ## Usage
 
-Run [`match_steam_banners_with_BiT.ipynb`][match_steam_banners_with_BiT-notebook].
+- To download image data, run [`download_steam_webdataset.ipynb`][download_steam_webdataset-notebook].
+[![Open In Colab][colab-badge]][download_steam_webdataset-notebook]
+
+Alternatively, you can find the data as `v0.1` in the ["Releases" section][github-releases] of this repository.
+
+- To match images, run [`match_steam_banners_with_BiT.ipynb`][match_steam_banners_with_BiT-notebook].
 [![Open In Colab][colab-badge]][match_steam_banners_with_BiT-notebook]
 
 ## References
@@ -32,7 +39,11 @@ Run [`match_steam_banners_with_BiT.ipynb`][match_steam_banners_with_BiT-notebook
 <!-- Definitions -->
 
 [wiki-cover]: <https://github.com/woctezuma/steam-BiT/wiki/img/illustration.jpg>
+[download_steam_webdataset-notebook]: <https://colab.research.google.com/github/woctezuma/steam-BiT/blob/main/download_steam_webdataset.ipynb>
 [match_steam_banners_with_BiT-notebook]: <https://colab.research.google.com/github/woctezuma/steam-BiT/blob/main/match_steam_banners_with_BiT.ipynb>
+
+[github-releases]: <https://github.com/woctezuma/steam-BiT/releases>
+[img2dataset-github]: <https://github.com/rom1504/img2dataset>
 
 [goog-bit-blog]: <https://ai.googleblog.com/2020/05/open-sourcing-bit-exploring-large-scale.html>
 [goog-bit-code]: <https://github.com/google-research/big_transfer>
