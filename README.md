@@ -29,6 +29,8 @@ Alternatively, you can find the data as `v0.1` in the ["Releases" section][githu
     - [Official Github repository][goog-bit-code]
     - [Kolesnikov, Alexander, et al. *Big Transfer (BiT): General Visual Representation Learning*. ECCV 2020.][goog-bit-paper]
     - [Beyer, Lucas, et al. *Knowledge distillation: A good teacher is patient and consistent*. arXiv 2021.][goog-bit-distillation-paper]
+-   A generic repository to match images:
+    - [`match-steam-banners`][banner-repository-generic]: retrieve games with similar banners,
 -   My usage of Facebook's DINO:
     - [`steam-DINO`][banner-repository-DINO]: retrieve games with similar banners, using Facebook's DINO (resolution 224),
 -   My usage of OpenAI's CLIP:
@@ -49,6 +51,8 @@ Alternatively, you can find the data as `v0.1` in the ["Releases" section][githu
 [goog-bit-code]: <https://github.com/google-research/big_transfer>
 [goog-bit-paper]: <https://arxiv.org/abs/1912.11370>
 [goog-bit-distillation-paper]: <https://arxiv.org/abs/2106.05237>
+
+[banner-repository-generic]: <https://github.com/woctezuma/match-steam-banners>
 
 [banner-repository-DINO]: <https://github.com/woctezuma/steam-DINO>
 
