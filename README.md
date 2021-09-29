@@ -6,6 +6,14 @@ Image similarity is assessed by the cosine similarity between image features enc
 
 ![Similar vertical banners][wiki-cover]
 
+## Model
+
+BiT is a convolutional neural network based on a ResNet architecture:
+- pre-trained on ImageNet-1k (1.28M images with 1000 classes) for `BiT-S`, 
+- pre-trained on ImageNet-21k (14M images with ~21k classes) for `BiT-M`.
+
+In this repository, the image encoder is a `BiT-R50x1` model, which results from the distillation of a `BiT-M-R152x2`.
+
 ## Data
 
 Data consists of **vertical** Steam banners (300x450 resolution), resized to 256x384 resolution.
