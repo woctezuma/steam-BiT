@@ -9,8 +9,8 @@ Image similarity is assessed by the cosine similarity between image features enc
 ## Model
 
 BiT is a convolutional neural network based on a ResNet architecture:
-- pre-trained on ImageNet-1k (1.28M images with 1000 classes) for `BiT-S`, 
-- pre-trained on ImageNet-21k (14M images with ~21k classes) for `BiT-M`.
+- pre-trained for classification on ImageNet-1k (1.28M images with 1000 classes) for `BiT-S`, 
+- pre-trained for classification on ImageNet-21k (14M images with ~21k classes) for `BiT-M`.
 
 In this repository, the image encoder is a `BiT-R50x1` model, which results from the distillation of a `BiT-M-R152x2`.
 
