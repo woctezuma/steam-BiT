@@ -13,6 +13,8 @@ BiT is a convolutional neural network based on a ResNet architecture:
 - pre-trained for classification on ImageNet-21k (14M images with ~21k classes) for `BiT-M`.
 
 In this repository, the image encoder is a `BiT-R50x1` model, which results from the distillation of a `BiT-M-R152x2`.
+First, the teacher model is fine-tuned on ImageNet-1k.
+Then, the distillation is performed on ImageNet-1k.
 
 ## Data
 
